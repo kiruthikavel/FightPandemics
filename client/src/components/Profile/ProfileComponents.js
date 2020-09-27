@@ -71,6 +71,16 @@ export const LocationIcon = styled(SvgIcon)`
   }
 `;
 
+export const HelpIcon = styled(SvgIcon)`
+  display: none;
+  width: 7rem;
+  height: 7rem;
+  @media screen and (min-width: ${mq.tablet.narrow.minWidth}) {
+    display: initial;
+    margin-right: 0.5rem;
+  }
+`;
+
 export const SocialIcon = styled(SvgIcon)`
   align-self: flex-end;
   width: 2rem;
